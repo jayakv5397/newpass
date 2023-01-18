@@ -1,0 +1,126 @@
+body{
+    /* background-color: red; */
+    margin: 0;
+    text-align: center;
+}
+
+input[type="radio"] {
+    /* -ms-transform: scale(1.5); IE 9 */
+    /* -webkit-transform: scale(1.5); Chrome, Safari, Opera */
+    transform: scale(2);
+  }
+
+
+#welcome{
+    margin: 5% auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    /* font-weight: 500; */
+}
+
+#heading{
+    color: white;
+    padding-top: 3rem;
+    display: inline-block;
+}
+
+#hide{
+    padding-top: 1rem;
+    color: white;
+}
+
+#password{
+    color: white;
+    padding-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#test{
+    width: 4rem;
+    display: inline-block;
+    margin-left: 2rem;
+    text-align: center  ;
+
+}
+
+.container-fluid{
+    width: 50%;
+    margin: 2% auto;
+    background: rgb(9,9,121);
+    background: linear-gradient(45deg, rgba(9,9,121,1) 28%, rgba(9,9,121,1) 45%, rgba(5,95,178,1) 74%, rgba(0,212,255,1) 100%);
+    height: 25rem;
+    border-radius: 2rem;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.generate{
+    margin: 1rem;
+    width: 75%;
+}
+
+.less-size{
+    font-size: x-large;
+}
+
+.option{
+    padding-left: 1rem;
+    color: white;
+}
+
+.select-section{
+    margin-top: 1rem;
+    background-color: blue;
+    height: 15%;
+    padding: 1rem;
+}
+
+
+
+@media only screen and (max-width: 1044px) {
+
+    .container-fluid{
+        width: 90%;
+        margin: 2% auto;
+        background: rgb(9,9,121);
+        background: linear-gradient(45deg, rgba(9,9,121,1) 28%, rgba(9,9,121,1) 45%, rgba(5,95,178,1) 74%, rgba(0,212,255,1) 100%);
+        height: 25rem;
+        border-radius: 2rem;
+        box-shadow: 10px 10px 5px #aaaaaa;
+    }
+    
+
+  }
+
+
+  @media only screen and (max-width: 590px) {
+    
+    .option{
+        /* padding-left: 1rem; */
+        color: white;
+        font-size:small;
+    }
+
+    .column{
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .select-section{
+        margin-top: 1rem;
+        background-color: blue;
+        height: 50%;
+        padding: 1rem;
+    }
+
+    .container-fluid{
+        width: 90%;
+        margin: 2% auto;
+        background: rgb(9,9,121);
+        background: linear-gradient(45deg, rgba(9,9,121,1) 28%, rgba(9,9,121,1) 45%, rgba(5,95,178,1) 74%, rgba(0,212,255,1) 100%);
+        border-radius: 2rem;
+        height: 100%;
+        box-shadow: 10px 10px 5px #aaaaaa;
+        text-align: center;
+    }
+
+  }
