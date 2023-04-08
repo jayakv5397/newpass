@@ -84,7 +84,7 @@ input[type="radio"] {
 
 .bg-image{
 
-    background-image: url('./bg.jpg');
+    background-image: url('/bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
