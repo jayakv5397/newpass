@@ -88,17 +88,17 @@ function random(selection,characters) {
 $("#myElem").hide();
 
 // get the text from the DOM Element: 
-const textToCopy = $("#password").text();
 
 
 // when someone clicks on the <a class="copy-text"> element 
 // (which should be a <button>), execute the copy command:
 document.querySelector('.copy-text').addEventListener('click' , ()=> {
+    const textToCopy = $("#password").text();
     navigator.clipboard.writeText(textToCopy).then(
       function() {
         /* clipboard successfully set */
 
-        window.alert('Success! The text was copied to your clipboard').fadeOut(100);
+        window.alert('Success! The Password was copied to your clipboard').fadeOut(100);
         $("#myElem").show("slow").delay(100).hide("slow");
 
       }, 
