@@ -142,4 +142,12 @@ input[type="radio"] {
         text-align: center;
     }
 
+    .row{
+        height: 30%;
+    }
+
+    .container-fluid{
+        height: 80vh;
+        min-height: 500px;
+    }
   }
